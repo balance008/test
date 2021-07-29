@@ -1,7 +1,20 @@
-手动阀手动阀fssdfhnskfjhasfafsfjs'
+有两种操作方式：
 
+1.用 git命令
 
+　　可以直接用命令“git  pull【仓库的ssh地址】【分支名称】”   这样拉取和推送
 
-sdfsf安抚安抚水电费是胜多负少
+2.用 TortoiseGit 方式 
 
-sfsf是  
+　　需要将私钥转成 .ppk格式
+
+　　1）运行PuTTYgen，在Conversions菜单中点击Import key，选择一开始生成的私钥文件，比如 id_rsa文件。
+
+　　2）点击Save private key 按钮，将其保存为.ppk文件。
+
+　　3）打开Pageant，点击Add Key，选择前一步所保存的.ppk文件所在的位置即可。
+
+　　PuTTYGen 和 Pageant 都在开始菜单中的TortoiseGit文件夹下，可以找到。
+————————————————
+版权声明：本文为CSDN博主「yhcad」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
+原文链接：https://blog.csdn.net/yhcad/article/details/88624286
